@@ -1,43 +1,41 @@
-# Tetris
-Classic Tetris game implemented in Python using Pygame.
+# Modern Tetris 🧩
 
-## Features
-- Pure English interface, using built-in bitmap font (no external font files required)
-- Cross-platform (Windows / Linux / macOS)
-- Ghost piece preview, next piece preview, scoring and level system
-- Supports both **WASD** and **arrow keys** for control
+![Python](https://img.shields.io/badge/Python-3%2B-blue)
+![Pygame](https://img.shields.io/badge/Pygame-2.0%2B-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 
-## Installation & Run
-1. Make sure Python 3.6+ and pip are installed.
-2. Install dependency:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   or just:
-   ```bash
-   pip install pygame
-   ```
-3. Run the game:
-   ```bash
-   python tetris.py
-   ```
+A classic Tetris game implemented in Python using Pygame. This project features a clean, English interface with built-in bitmap font, fully cross-platform compatibility, and smooth gameplay.
 
-## Controls
-| Key(s)          | Action          |
-|-----------------|-----------------|
-| `A` / `←`       | Move left       |
-| `D` / `→`       | Move right      |
-| `S` / `↓`       | Soft drop       |
-| `W` / `↑`       | Rotate          |
-| `Space`         | Hard drop       |
-| `R`             | Restart         |
+## ✨ Features
 
-## Scoring
-- 1 line: 100 × level
-- 2 lines: 300 × level
-- 3 lines: 500 × level
-- 4 lines: 800 × level
-- Level increases every 10 cleared lines, which speeds up the falling.
+- 🖥️ **Pure English interface**: Uses built-in bitmap font (no external font files required)
+- 🌍 **Cross-platform**: Runs seamlessly on Windows, Linux, and macOS
+- 👻 **Ghost piece preview**: See where your piece will land before you drop it
+- ⏭️ **Next piece preview**: Plan your moves ahead
+- 📈 **Scoring and level system**: The game gets faster as you progress
+- 🎮 **Dual control schemes**: Supports both WASD and Arrow keys
 
-## License
-MIT License (optional)
+## 🎮 Controls
+
+You can play entirely with either WASD or Arrow keys.
+
+| Action | WASD Keys | Arrow Keys |
+| :--- | :--- | :--- |
+| Move Left | `A` | `←` |
+| Move Right | `D` | `→` |
+| Drop | `S` | `↓` |
+| Rotate | `W` | `↑` |
+| Hard Drop / Pause | (Depends on your implementation) | (Depends on your implementation) |
+
+
+
+## 🚀 Installation & Run
+
+### Prerequisites
+Make sure you have **Python 3+** and `pip` installed on your system.
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/WindyOps/modern-tetris.git
+cd modern-tetris
